@@ -35,6 +35,11 @@ The job follows the data format provided by 2018 NYC taxi rides
 
 ## Configure EKS
 
+```shell
+#install some basic Kubernetes add on to make things easier 
+
+```
+
 ### RBAC
 
 `kubectl apply -f example/kubernetes/spark-rbac.yaml`
